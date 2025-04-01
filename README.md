@@ -58,7 +58,7 @@ npm start
 
 The server should now be running at http://localhost:5000.
 
-3. Set up the Frontend
+# 3. Set up the Frontend
 Go to the frontend directory:
 
 cd ../frontend
