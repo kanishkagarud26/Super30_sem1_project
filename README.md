@@ -1,98 +1,70 @@
-# Super30_sem1_project
-Ice Cream Inventory Management
+# Getting Started with Create React App
 
-This is an inventory management system for ice cream products, built with React.js, Node.js, and SQL databases.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Technologies Used
- Frontend: React.js
+## Available Scripts
 
- Backend: Node.js
+In the project directory, you can run:
 
- Database: SQL (MySQL/PostgreSQL)
+### `npm start`
 
-# Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Manage ice cream inventory
-Add, update, and delete products
-View product details with quantity
-User-friendly interface for inventory tracking
-Real-time updates of the stock quantity
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Installation and Setup 
-Follow these steps to set up the project locally.
+### `npm test`
 
-Prerequisites
-Before you begin, ensure that you have the following installed:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Node.js (Latest version)
+### `npm run build`
 
-npm or yarn
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-SQL Database (MySQL or PostgreSQL)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-A code editor (e.g., VS Code)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# 1. Clone the Repository
-Clone this repository to your local machine:
+### `npm run eject`
 
-git clone https://github.com/kanishkagarud26/icecream-inventory-management.git
-cd icecream-inventory-management
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-# 2. Set up the Backend
-Go to the backend directory:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-cd backend
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Install the required dependencies:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-npm install
+## Learn More
 
-Set up the database:
-Create a database in MySQL/PostgreSQL.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Modify the database configuration in backend/config/db.js to match your credentials.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Run the server:
+### Code Splitting
 
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-The server should now be running at http://localhost:5000.
+### Analyzing the Bundle Size
 
-# 3. Set up the Frontend
-Go to the frontend directory:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-cd ../frontend
-Install the required dependencies:
+### Making a Progressive Web App
 
-npm install
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Run the React app:
+### Advanced Configuration
 
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-The app should now be running at http://localhost:3000.
+### Deployment
 
-# 4. API Endpoints
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-The backend exposes the following API endpoints:
+### `npm run build` fails to minify
 
-GET /api/products - Get all products in the inventory.
-
-POST /api/products - Add a new product.
-
-PUT /api/products/:id - Update an existing product.
-
-DELETE /api/products/:id - Delete a product.
-
-# 5. Accessing the Application
-
-Once both the backend and frontend are running, you can access the app in your browser at http://localhost:3000.
-
-# 6. Troubleshooting
-
-Ensure the backend server is running properly and that the database configuration is correct.
-
-If the frontend is not loading, check the console for errors and resolve any dependency issues.
-
-Make sure the backend and frontend are connected through API calls.
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
