@@ -10,18 +10,15 @@ This is an inventory management system for ice cream products, built with React.
 
  Database: SQL (MySQL/PostgreSQL)
 
-Features
+# Features
+
 Manage ice cream inventory
-
 Add, update, and delete products
-
 View product details with quantity
-
 User-friendly interface for inventory tracking
-
 Real-time updates of the stock quantity
 
-Installation and Setup
+# Installation and Setup
 Follow these steps to set up the project locally.
 
 Prerequisites
