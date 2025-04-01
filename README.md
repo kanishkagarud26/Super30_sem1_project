@@ -43,9 +43,11 @@ cd icecream-inventory-management
 Go to the backend directory:
 
 cd backend
+
 Install the required dependencies:
 
 npm install
+
 Set up the database:
 Create a database in MySQL/PostgreSQL.
 
@@ -54,6 +56,7 @@ Modify the database configuration in backend/config/db.js to match your credenti
 Run the server:
 
 npm start
+
 The server should now be running at http://localhost:5000.
 
 3. Set up the Frontend
@@ -63,9 +66,11 @@ cd ../frontend
 Install the required dependencies:
 
 npm install
+
 Run the React app:
 
 npm start
+
 The app should now be running at http://localhost:3000.
 
 4. API Endpoints
