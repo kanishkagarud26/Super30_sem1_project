@@ -1,5 +1,6 @@
 # Super30_sem1_project
 Ice Cream Inventory Management
+
 This is an inventory management system for ice cream products, built with React.js, Node.js, and SQL databases.
 
 Technologies Used
