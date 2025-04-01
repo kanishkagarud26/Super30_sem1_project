@@ -37,22 +37,14 @@ A code editor (e.g., VS Code)
 1. Clone the Repository
 Clone this repository to your local machine:
 
-bash
-Copy
-Edit
 git clone https://github.com/kanishkagarud26/icecream-inventory-management.git
 cd icecream-inventory-management
 2. Set up the Backend
 Go to the backend directory:
 
-bash
-Copy
-Edit
 cd backend
 Install the required dependencies:
-bash
-Copy
-Edit
+
 npm install
 Set up the database:
 Create a database in MySQL/PostgreSQL.
@@ -60,28 +52,19 @@ Create a database in MySQL/PostgreSQL.
 Modify the database configuration in backend/config/db.js to match your credentials.
 
 Run the server:
-bash
-Copy
-Edit
+
 npm start
 The server should now be running at http://localhost:5000.
 
 3. Set up the Frontend
 Go to the frontend directory:
 
-bash
-Copy
-Edit
 cd ../frontend
 Install the required dependencies:
-bash
-Copy
-Edit
+
 npm install
 Run the React app:
-bash
-Copy
-Edit
+
 npm start
 The app should now be running at http://localhost:3000.
 
