@@ -3,12 +3,12 @@ Ice Cream Inventory Management
 
 This is an inventory management system for ice cream products, built with React.js, Node.js, and SQL databases.
 
-Technologies Used
-# Frontend: React.js
+# Technologies Used
+ Frontend: React.js
 
-# Backend: Node.js
+ Backend: Node.js
 
-# Database: SQL (MySQL/PostgreSQL)
+ Database: SQL (MySQL/PostgreSQL)
 
 Features
 Manage ice cream inventory
